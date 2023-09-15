@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+__pycache__/
