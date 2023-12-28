@@ -2,17 +2,23 @@
 
 This repository holds workflows crafted for generating AI images through Stable Diffusion using ComfyUI. The workflows are arranged for clarity and ease of use.
 
-## Latest Update: `otonx_sdxl_base+lora+controlnet+refiner+upscale_workflow`
+## Latest Update: 
 
-This workflow incorporates SDXL models with a refiner. Users have the option to add LoRAs, ControlNet models or T21 Adapters, and an Upscaler. The ControlNet / T21 section is implemented as a Switch logic, allowing users to select between ControlNet models or T21 adapters.
+`otonx_sdxl_base+lora+controlnet+refiner+upscale+facedetail_workflow`
+
+This workflow incorporates SDXL models with a refiner. Users have the option to add LoRAs, ControlNet models or T21 Adapters, and an Upscaler. The ControlNet / T21 section is implemented as a Switch logic, allowing users to select between ControlNet models or T21 adapters. After the refiner KSampler, the users have the options to do face fix/detailing.
+
+`otonx_sdxl_base+refiner+lcmlora+facedetailer_workflow`
+
+My attempt to use LCM Lora with SDXL models.
 
 ### Key Components:
 
-- **ComfyUI**: An intuitive interface for crafting AI art pipelines&#8203;``【oaicite:10】``&#8203;.
-- **Stable Diffusion**: A technique for AI art generation, enhanced by SDXL models&#8203;``【oaicite:9】``&#8203;&#8203;``【oaicite:8】``&#8203;&#8203;``【oaicite:7】``&#8203;.
-- **SDXL Models**: A two-step process with a base model and a refiner model&#8203;``【oaicite:6】``&#8203;.
-- **ControlNet Models**: Extend diffusion models to allow conditional inputs&#8203;``【oaicite:5】``&#8203;&#8203;``【oaicite:4】``&#8203;.
-- **T21 Adapters**: Enable text-to-image conversion efficiently&#8203;``【oaicite:3】``&#8203;&#8203;``【oaicite:2】``&#8203;&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;.
+- **ComfyUI**: An intuitive interface for crafting AI art pipelines.
+- **Stable Diffusion**: A technique for AI art generation, enhanced by SDXL models.
+- **SDXL Models**: A two-step process with a base model and a refiner model.
+- **ControlNet Models**: Extend diffusion models to allow conditional inputs.
+- **T21 Adapters**: Enable text-to-image conversion efficiently.
 - **LoRAs and Upscalers**: Additional modules for refining and upscaling images.
 
 ### Workflow Details:
