@@ -1584,42 +1584,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 44,
-      "type": "Text box",
-      "pos": [
-        710,
-        250
-      ],
-      "size": {
-        "0": 320,
-        "1": 150
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            214,
-            215
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Positive Prompt G",
-      "properties": {
-        "Node name for S&R": "Text box"
-      },
-      "widgets_values": [
-        "A beautiful nude woman hung in X-shaped pose inside a floating large Saltire, arms and legs are stretched and bound to the edges of the Saltire facing the camera. Robotic arms for Cybernetic transformation. White sci-fi operating room. NSFW."
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 134,
       "type": "SaveImage",
       "pos": [
@@ -1659,7 +1623,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -1694,7 +1658,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -1749,7 +1713,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1844,10 +1808,10 @@
         1040,
         1830
       ],
-      "size": [
-        228.39999389648438,
-        162
-      ],
+      "size": {
+        "0": 228.39999389648438,
+        "1": 162
+      },
       "flags": {},
       "order": 30,
       "mode": 0,
@@ -1981,7 +1945,7 @@
       ],
       "size": {
         "0": 310,
-        "1": 130
+        "1": 150
       },
       "flags": {},
       "order": 27,
@@ -2003,6 +1967,12 @@
           ],
           "shape": 3,
           "slot_index": 0
+        },
+        {
+          "name": "POSE_KEYPOINT",
+          "type": "POSE_KEYPOINT",
+          "links": null,
+          "shape": 3
         }
       ],
       "properties": {
@@ -2029,7 +1999,7 @@
         "1": 314
       },
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "outputs": [
         {
@@ -2072,7 +2042,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "outputs": [
         {
@@ -2108,7 +2078,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "outputs": [
         {
@@ -2340,7 +2310,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "outputs": [
         {
@@ -2521,7 +2491,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "outputs": [
         {
@@ -2556,7 +2526,7 @@
         "1": 90
       },
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "properties": {
         "text": ""
@@ -2566,6 +2536,42 @@
       ],
       "color": "#2a363b",
       "bgcolor": "#3f5159"
+    },
+    {
+      "id": 44,
+      "type": "Text box",
+      "pos": [
+        710,
+        250
+      ],
+      "size": {
+        "0": 320,
+        "1": 150
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            214,
+            215
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Positive Prompt G",
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "A beautiful woman hung in an X-shaped pose inside a large floating Saltire, arms and legs stretched and bound to the edges of the Saltire facing the camera. Robotic arms for Cybernetic transformation. White sci-fi operating room."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     }
   ],
   "links": [
